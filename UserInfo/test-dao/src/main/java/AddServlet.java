@@ -44,7 +44,6 @@ public class AddServlet extends HttpServlet {
         requestDispatcher.forward(req, resp);
     }
     /*Cобираем запрос канкатинируем строки выполняем sql запрос*/
-    /*разобраться в с датой в базе данных и сделать уже наконец ебанна рот*/
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String firstName = req.getParameter("first-name");
